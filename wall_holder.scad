@@ -17,7 +17,7 @@ union() {
             screw_hole(r1=2.5, h1=1.5, r2=3, h2=2, r3=5, h3=3.5);
     }
 
-    translate([width/2, depth/2, 3])
+    translate([width/2, depth/2, 2.5])
         rotate([0, 180, 0])
-        slide(l = 40, h = 4, w1 = width+10, w2 = width+4);
+        slide(l = 50, h = 5, w1 = width+10, w2 = width);
 }
