@@ -10,8 +10,8 @@ distance = 65;
 difference() {
     box_rounded(depth, 45, 9, 10);
 
-    translate([45/2-width/2, 10, 5])
-        box(depth, width, 5);
+    translate([45/2-width/2-0.5, 10, 5])
+        box(depth, width+1, 5);
     translate([45/2, 0, 5 + 2.5])
         union() {
             translate([0, depth/2-55+0.1, 0])
